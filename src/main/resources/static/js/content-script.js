@@ -1,0 +1,3 @@
+// AUTO INIT
+M.AutoInit();
+
