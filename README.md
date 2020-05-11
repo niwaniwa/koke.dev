@@ -2,6 +2,9 @@
 
 [koke.dev](https:/koke.dev/)
 
+## release
+- 1.0
+
 ## 使用ライブラリ等
 - [Spring Boot](https://spring.io/projects/spring-boot)
     - web
