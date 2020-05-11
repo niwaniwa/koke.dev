@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Koke</title>
+        <link rel="icon" th:href="@{/images/favicon_icon_koke_32.png}">
+        <link rel="icon" th:href="@{/images/favicon_icon_koke_16.png}">
+        <link rel="apple-touch-icon" th:href="@{/images/favicon_icon_koke_apple.png}"/>
+        <link type="text/css" rel="stylesheet" th:href="@{/css/content-css.css}"/>
+        <link type="text/css" rel="stylesheet" th:href="@{/css/materialize.min.css}"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+
+            <div class="container" style="margin-top: 6%">
+                <div class="row">
+                    <div class="card-content valign center ">
+                        <img class="z-depth-5 circle responsive-img" th:src="@{/images/Avatar_koke.png}" width="35%">
+                        <h1 class="red-text text-lighten-1">Koke</h1>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="container" style="margin-top: 6%">
+            <div class="row">
+                <div class="valign center ">
+                    <h5 class="red-text text-lighten-1">Profile</h5>
+                    <div class="col xl6 l6 m6 s12 red-text text-lighten-1" >
+                        <i class="large material-icons">account_box</i>
+                        <p>Start Account</p>
+                        <p>2014 7/25</p>
+                    </div>
+                    <div class="col xl6 l6 m6 s12 red-text text-lighten-1">
+                        <i class="large material-icons">videogame_asset</i>
+                        <p>Game</p>
+                        <p>Minecraft</p>
+                        <p>Steam</p>
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top: 6%">
+            <div class="row">
+                <div class="valign center red-text text-lighten-1" >
+                    <h5>Accounts</h5>
+                    <div style="margin: 3em">
+                        <div class="col xl2 l2 m4 s12">
+                            <p>Twitter</p>
+                            <a href="https://twitter.com/haniwa_koke">
+                                <i class="medium fab fa-twitter red-text text-lighten-1 tooltipped" data-tooltip="haniwa_koke"></i>
+                            </a>
+                        </div>
+                        <div class="col xl2 l2 m4 s12">
+                            <p>Discord</p>
+                            <i class="medium fab fa-discord red-text text-lighten-1 tooltipped" data-tooltip="KokekoKko#7900"></i>
+                        </div>
+                        <div class="col xl2 l2 m4 s12">
+                            <p>Github</p>
+                            <a href="https://github.com/niwaniwa">
+                                <i class="medium fab fa-github-alt red-text text-lighten-1 tooltipped" data-tooltip="niwaniwa"></i>
+                            </a>
+                        </div>
+                        <div class="col xl2 l2 m4 s12">
+                            <p>Steam</p>
+                            <a href="https://steamcommunity.com/id/kokekokko/">
+                                <i class="medium fab fa-steam red-text text-lighten-1 tooltipped" data-tooltip="KokekoKko_"></i>
+                            </a>
+                        </div>
+                        <div class="col xl2 l2 m4 s12">
+                            <p>Youtube</p>
+                            <a href="https://www.youtube.com/channel/UC0-bd_NuJFfxaxpAG8Zoo2w?view_as=subscriber">
+                                <i class="medium fab fa-youtube red-text text-lighten-1 tooltipped" data-tooltip="KokekoKko_"></i>
+                            </a>
+                        </div>
+                        <div class="col xl2 l2 m4 s12">
+                            <p>Mail</p>
+                            <a href="mailto:info@koke.dev">
+                                <i class="medium material-icons red-text text-lighten-1 tooltipped" data-tooltip="info@koke.dev">mail_outline</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Kinel Lab</h5>
+                        <p class="grey-text text-lighten-4">... 🐔 ...</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="https://twitter.com/haniwa_koke">Twitter</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://steamcommunity.com/id/kokekokko/">Steam</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://github.com/niwaniwa">Github</a></li>
+                            <li><a class="grey-text text-lighten-3 tooltipped" data-tooltip="KokekoKko#7900">Discord</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2020 Kinel
+                    <a class="grey-text text-lighten-4 right" href="#!">利用規約 / Terms of Service</a>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" th:src="@{/js/materialize.min.js}"></script>
+        <script type="text/javascript" th:src="@{/js/content-script.js}"></script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+a:link { color: #0000ff; }
+a:visited { color: #000080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }

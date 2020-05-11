@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>template html</title>
+        <link rel="icon" th:href="@{/images/user_32.png}">
+        <link rel="icon" th:href="@{/images/user_16.png}">
+        <link rel="apple-touch-icon" th:href="@{/images/user_apple.png}"/>
+        <link type="text/css" rel="stylesheet" th:href="@{/css/materialize.min.css}"/>
+        <link type="text/css" rel="stylesheet" th:href="@{/css/content-css.css}"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <!-- nav bar -->
+            <nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="nav-wrapper">
+                            <div class="col l4">
+                                <a href="#" class="brand-logo">KineL</a>
+                            </div>
+                            <div class="col l8">
+                                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                    <li>Mono</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Kinel Lab</h5>
+                        <p class="grey-text text-lighten-4">... 🐔 ...</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="https://twitter.com/haniwa_koke">Twitter</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://steamcommunity.com/id/kokekokko/">Steam</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://github.com/niwaniwa">Github</a></li>
+                            <li><a class="grey-text text-lighten-3 tooltipped" data-tooltip="KokekoKko#7900">Discord</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2020 Kinel
+                    <a class="grey-text text-lighten-4 right" href="#!">利用規約 / Terms of Service</a>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" th:src="@{/js/materialize.min.js}"></script>
+        <script type="text/javascript" th:src="@{/js/content-script.js}"></script>
+    </body>
+</html>
